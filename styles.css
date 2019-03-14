@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color:lightblue;
+}
+ul
+{
+    background-color:#cccccc;
+    list-style-type: none;
+}
+
+li
+{
+    /* Add a comment? */
+    display:inline-block;
+    width: 160px;
+    text-align: center;
+    margin: 5px;
+    padding: 3px 0 0 10px;
+    background-color:#aabbcc;
+    border-bottom: 2px solid black;
+    border-left:10px solid maroon;
+    
+}
