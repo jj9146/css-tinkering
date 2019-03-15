@@ -8,13 +8,27 @@ body
 {
     background-color:lightblue;
 }
-ul
+
+
+iframe
+{
+    /*border: 5px solid blue;*/
+    border:none;
+}
+
+
+.myMenu  /* Used to be "ul", but is class now */
 {
     background-color:#cccccc;
     list-style-type: none;
 }
 
-li
+.myMenu li:hover
+{
+    background-color:#ccaacc;
+}
+
+.myMenu li /* used to be just "li" */
 {
     /* Add a comment? */
     display:inline-block;
@@ -26,4 +40,9 @@ li
     border-bottom: 2px solid black;
     border-left:10px solid maroon;
     
+}
+
+.myMenu li a /* used to be just "li a" */
+{
+    text-decoration: none;
 }
